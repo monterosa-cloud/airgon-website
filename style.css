@@ -270,7 +270,7 @@ h4 { font-size: 1rem; font-weight: 700; margin-bottom: 8px; }
 .hero-content {
   position: relative;
   z-index: 1;
-  max-width: 760px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 24px;
   text-align: center;
