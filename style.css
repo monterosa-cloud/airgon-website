@@ -4,11 +4,11 @@
    ============================================= */
 
 :root {
-  --blue-dark:    #0d1b2a;
-  --blue-main:    #0a2540;
-  --blue-mid:     #1a3d5c;
-  --blue-light:   #2d6a9f;
-  --blue-accent:  #0d1b2a;
+  --blue-dark:    #0a1628;
+  --blue-main:    #0d1e32;
+  --blue-mid:     #132e4a;
+  --blue-light:   #1e4d7b;
+  --blue-accent:  #5ba3e0;
   --gray-900:     #111827;
   --gray-700:     #374151;
   --gray-500:     #6b7280;
@@ -170,6 +170,7 @@ h4 { font-size: 1rem; font-weight: 700; margin-bottom: 8px; }
   height: 48px;
   width: auto;
   display: block;
+  border-radius: 10px;
 }
 .footer-logo-img {
   height: 56px;
@@ -821,10 +822,10 @@ h4 { font-size: 1rem; font-weight: 700; margin-bottom: 8px; }
 .gallery-item:hover .gallery-label { transform: translateY(0); }
 
 /* ==================== DARK CONTACT FOOTER ==================== */
-#contact { padding: 0; background: #0d1b2a; }
+#contact { padding: 0; background: #0a1628; }
 
 .dark-footer {
-  background: #0d1b2a;
+  background: #0a1628;
   color: var(--white);
   padding: 80px 0 0;
 }
