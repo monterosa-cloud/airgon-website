@@ -4,10 +4,10 @@
    ============================================= */
 
 :root {
-  --blue-dark:    #0a1628;
-  --blue-main:    #0d1e32;
-  --blue-mid:     #132e4a;
-  --blue-light:   #1e4d7b;
+  --blue-dark:    #041635;
+  --blue-main:    #072050;
+  --blue-mid:     #0d3270;
+  --blue-light:   #1a4d9a;
   --blue-accent:  #5ba3e0;
   --gray-900:     #111827;
   --gray-700:     #374151;
@@ -170,7 +170,6 @@ h4 { font-size: 1rem; font-weight: 700; margin-bottom: 8px; }
   height: 48px;
   width: auto;
   display: block;
-  border-radius: 10px;
 }
 .footer-logo-img {
   height: 56px;
@@ -822,10 +821,10 @@ h4 { font-size: 1rem; font-weight: 700; margin-bottom: 8px; }
 .gallery-item:hover .gallery-label { transform: translateY(0); }
 
 /* ==================== DARK CONTACT FOOTER ==================== */
-#contact { padding: 0; background: #0a1628; }
+#contact { padding: 0; background: #041635; }
 
 .dark-footer {
-  background: #0a1628;
+  background: #041635;
   color: var(--white);
   padding: 80px 0 0;
 }
