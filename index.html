@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Airgon – Services Techniques | Belgique & France</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <meta name="description" content="Airgon accompagne les entrepreneurs des services techniques en Belgique et en France dans leur prochaine étape de croissance." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <img src="logo-white.png" alt="Airgon" class="nav-logo-img" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="#mission">Notre mission</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#approche">Notre approche</a></li>
+        <li><a href="#entrepreneurs">Entrepreneurs</a></li>
+        <li><a href="#contact" class="nav-cta">Nous contacter</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#mission" onclick="closeMenu()">Notre mission</a></li>
+        <li><a href="#services" onclick="closeMenu()">Services</a></li>
+        <li><a href="#approche" onclick="closeMenu()">Notre approche</a></li>
+        <li><a href="#entrepreneurs" onclick="closeMenu()">Entrepreneurs</a></li>
+        <li><a href="#contact" onclick="closeMenu()">Nous contacter</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section id="hero">
+    <div class="hero-bg">
+      <img src="https://images.pexels.com/photos/236698/pexels-photo-236698.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Site industriel" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">Services Techniques · Belgique & France</div>
+      <h1 class="hero-title">On aide les entrepreneurs à passer à la prochaine étape de croissance</h1>
+      <p class="hero-subtitle">Airgon est un groupe de services techniques qui accompagne les PME ambitieuses en Belgique et en France — en préservant leur identité locale et en accélérant leur développement.</p>
+      <div class="hero-actions">
+        <a href="#entrepreneurs" class="btn btn-primary">Vous êtes entrepreneur ?</a>
+        <a href="#services" class="btn btn-outline">Découvrir nos services</a>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-indicator"></div>
+    </div>
+  </section>
+
+
+  <!-- ========== MISSION ========== -->
+  <section id="mission">
+    <div class="container">
+      <div class="mission-grid">
+        <div class="mission-text fade-in">
+          <div class="section-tag">Notre mission</div>
+          <h2>Construire le leader des services techniques en Europe francophone</h2>
+          <p>Airgon fédère des entreprises de services techniques indépendantes en Belgique et en France. Notre modèle repose sur la conviction que les meilleures équipes locales méritent les ressources, les systèmes et le réseau d'un grand groupe — sans perdre ce qui les rend uniques.</p>
+          <p>Nous travaillons main dans la main avec les fondateurs qui souhaitent pérenniser leur activité, accélérer leur croissance ou bâtir leur héritage à long terme. Certains cherchent un partenaire de croissance. D'autres envisagent une évolution à terme. Nous nous adaptons à chaque situation, sans modèle imposé.</p>
+          <a href="#entrepreneurs" class="btn btn-primary">En savoir plus</a>
+        </div>
+        <div class="mission-image fade-in">
+          <img src="https://images.pexels.com/photos/3862369/pexels-photo-3862369.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Ingénieure sur le terrain" />
+          <div class="mission-card">
+            <div class="mission-card-icon">&#9672;</div>
+            <div>
+              <strong>Gouvernance centralisée</strong>
+              <span>Autonomie locale préservée</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section id="services">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-tag">Ce que nous faisons</div>
+        <h2>Nos domaines d'expertise</h2>
+        <p>Airgon intervient dans les secteurs les plus essentiels de l'industrie et du tertiaire, avec des équipes spécialisées et certifiées.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card fade-in">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 4L6 14v20l18 10 18-10V14L24 4z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="M24 4v30M6 14l18 10 18-10" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Électricité</h3>
+          <p>Installations électriques industrielles et tertiaires, maintenance, mise aux normes, automatisation et TGBT.</p>
+          <div class="service-tags"><span>HTA/BTA</span><span>Industriel</span><span>Maintenance</span></div>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="2.5"/><path d="M24 4v6M24 38v6M4 24h6M38 24h6M8.69 8.69l4.24 4.24M35.07 35.07l4.24 4.24M8.69 39.31l4.24-4.24M35.07 12.93l4.24-4.24" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Mécanique industrielle</h3>
+          <p>Maintenance préventive et curative, montage de machines, travaux mécaniques sur sites industriels complexes.</p>
+          <div class="service-tags"><span>Maintenance</span><span>Montage</span><span>Inspection</span></div>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 36s4-8 16-8 16 8 16 8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M16 20c0-4.42 3.58-8 8-8s8 3.58 8 8" stroke="currentColor" stroke-width="2.5"/><path d="M24 12V4M14 16l-6-4M34 16l6-4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>CVC & Climatisation</h3>
+          <p>Chauffage, ventilation, climatisation : conception, installation, entretien et optimisation énergétique des systèmes.</p>
+          <div class="service-tags"><span>Confort</span><span>Énergie</span><span>Tertiaire</span></div>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 6C14 6 6 14 6 24c0 6.08 2.86 11.5 7.3 15" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M34.7 39C38.14 35.5 40 30.98 40 26" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M20 24a4 4 0 1 0 8 0 4 4 0 0 0-8 0zM24 20v-8M24 28v8M20 24H12M28 24h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Traitement de l'eau</h3>
+          <p>Stations de traitement, réseaux hydrauliques, contrôle qualité et conformité réglementaire des installations eau.</p>
+          <div class="service-tags"><span>Potable</span><span>Industrielle</span><span>Réseaux</span></div>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M24 6l4 10h10l-8 6 3 10-9-6-9 6 3-10-8-6h10L24 6z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Sécurité industrielle</h3>
+          <p>Systèmes de détection incendie, sprinklers, contrôle d'accès, sécurité des procédés et conformité ATEX.</p>
+          <div class="service-tags"><span>Incendie</span><span>ATEX</span><span>Conformité</span></div>
+        </div>
+        <div class="service-card fade-in">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="10" width="36" height="28" rx="3" stroke="currentColor" stroke-width="2.5"/><path d="M16 10V6M32 10V6M6 20h36" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Facility Management</h3>
+          <p>Gestion multi-technique des bâtiments industriels et tertiaires, contrats de maintenance globale et pilotage des prestataires.</p>
+          <div class="service-tags"><span>Multi-technique</span><span>Contrats</span><span>Reporting</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== APPROCHE ========== -->
+  <section id="approche">
+    <div class="container">
+      <div class="approche-grid">
+        <div class="approche-images fade-in">
+          <div class="approche-img-main">
+            <img src="https://images.pexels.com/photos/3862365/pexels-photo-3862365.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Site industriel" />
+          </div>
+          <div class="approche-img-secondary">
+            <img src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Électricien au travail" />
+          </div>
+        </div>
+        <div class="approche-content fade-in">
+          <div class="section-tag">Notre approche</div>
+          <h2>Un modèle construit pour les entrepreneurs</h2>
+          <div class="approche-steps">
+            <div class="step">
+              <div class="step-number">01</div>
+              <div class="step-body">
+                <h4>Rencontrer les bons entrepreneurs</h4>
+                <p>Nous cherchons des fondateurs avec des équipes solides et une vision claire — pas nécessairement des entreprises à vendre.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">02</div>
+              <div class="step-body">
+                <h4>Comprendre vos besoins en premier</h4>
+                <p>Chaque fondateur est différent. Avant toute chose, nous écoutons : qu'est-ce qui vous manque pour aller plus loin ? C'est votre réponse qui définit la suite.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">03</div>
+              <div class="step-body">
+                <h4>Apporter les ressources qui manquent</h4>
+                <p>Capital, systèmes de gestion, réseau commercial, RH, achats groupés — nous mettons à disposition ce dont vous avez besoin pour accélérer.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">04</div>
+              <div class="step-body">
+                <h4>Préserver ce qui fait votre force</h4>
+                <p>Votre nom, vos équipes, votre culture, votre autonomie opérationnelle. Airgon agit en arrière-plan, jamais en remplacement.</p>
+              </div>
+            </div>
+            <p class="approche-note">Le rythme et la profondeur du partenariat sont toujours définis par le fondateur.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== ENTREPRENEURS CTA ========== -->
+  <section id="entrepreneurs">
+    <div class="entrepreneurs-bg">
+      <img src="https://images.pexels.com/photos/3862387/pexels-photo-3862387.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="Chef de projet technique" class="entrepreneurs-img" />
+      <div class="entrepreneurs-overlay"></div>
+    </div>
+    <div class="container">
+      <div class="entrepreneurs-content fade-in">
+        <div class="section-tag light">Pour les entrepreneurs</div>
+        <h2>Vous voulez faire grandir votre PME sans la perdre ?</h2>
+        <p>Votre entreprise est votre meilleur actif. Après des années à la faire tourner, il est temps qu'elle travaille aussi pour vous.</p>
+        <ul class="entrepreneurs-list">
+          <li>
+            <svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Vous restez aux commandes de votre entreprise
+          </li>
+          <li>
+            <svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Partenariat structuré sur mesure, selon vos objectifs
+          </li>
+          <li>
+            <svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Continuité de l'équipe, du nom et de la culture
+          </li>
+          <li>
+            <svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Accès aux ressources d'un groupe sans contrainte
+          </li>
+          <li>
+            <svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Échange confidentiel, sans obligation
+          </li>
+        </ul>
+        <a href="#contact" class="btn btn-primary btn-large">Explorons ensemble les possibilités</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MODELES DE PARTENARIAT ========== -->
+  <section id="modeles">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="section-tag">Votre entreprise reste la vôtre</div>
+        <h2>Chaque fondateur choisit son niveau d'engagement</h2>
+        <p>Il n'y a pas de modèle unique. Nous construisons le partenariat qui correspond à votre situation, vos ambitions et votre calendrier.</p>
+      </div>
+      <div class="modeles-grid">
+        <div class="modele-card fade-in">
+          <div class="modele-number">01</div>
+          <h3>Coopération opérationnelle</h3>
+          <p>Accédez aux outils, aux achats groupés et au réseau commercial du groupe — sans céder aucune part de votre capital. Vous restez 100 % propriétaire.</p>
+          <div class="modele-tag">Aucune cession de capital</div>
+        </div>
+        <div class="modele-card modele-featured fade-in">
+          <div class="modele-number">02</div>
+          <h3>Partenariat minoritaire</h3>
+          <p>Airgon investit à vos côtés en tant qu'actionnaire minoritaire. Vous gardez le contrôle et la direction. Nous apportons le capital et les ressources pour accélérer.</p>
+          <div class="modele-tag">Vous gardez le contrôle</div>
+        </div>
+        <div class="modele-card fade-in">
+          <div class="modele-number">03</div>
+          <h3>Intégration complète</h3>
+          <p>Si et quand vous le décidez — à vos conditions, à votre rythme. Une option parmi d'autres, jamais une obligation. Certains fondateurs choisissent de rester associés après.</p>
+          <div class="modele-tag">Si et quand vous le décidez</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ========== DARK CONTACT + FOOTER ========== -->
+  <section id="contact">
+    <div class="dark-footer">
+      <div class="dark-footer-inner">
+
+        <!-- LEFT: contact block -->
+        <div class="df-left">
+          <h2 class="df-heading">Parlons.</h2>
+          <p class="df-sub">Que vous planifiez un projet, cherchiez un partenaire ou envisagiez une nouvelle étape pour votre entreprise.</p>
+          <p class="df-email">Email : <a href="mailto:giorgio@monterosa-ventures.com">giorgio@monterosa-ventures.com</a></p>
+
+          <form class="df-form" onsubmit="handleSubmit(event)" id="df-form">
+            <div class="df-form-row">
+              <input type="text" name="name" placeholder="Nom" required class="df-input" />
+              <input type="email" name="email" placeholder="Email" required class="df-input" />
+              <button type="submit" class="df-submit" aria-label="Envoyer">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+            <div id="df-success" class="df-success" style="display:none">Merci ! On revient vers vous bientôt.</div>
+          </form>
+
+          <div class="df-social">
+            <a href="#" aria-label="LinkedIn" class="df-social-link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+          </div>
+
+          <!-- Bottom: logo -->
+          <div class="df-logo">
+            <img src="logo.png" alt="Airgon" class="footer-logo-img" />
+          </div>
+        </div>
+
+        <!-- RIGHT: large nav links -->
+        <nav class="df-nav">
+          <a href="#mission">Notre mission</a>
+          <a href="#services">Services</a>
+          <a href="#approche">Notre approche</a>
+          <a href="#entrepreneurs">Entrepreneurs</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+      </div>
+
+      <div class="df-bottom">
+        <span>© 2025 Airgon Group. Tous droits réservés.</span>
+        <div class="df-legal">
+          <a href="#">Mentions légales</a>
+          <a href="#">Confidentialité</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER (hidden – merged above) ========== -->
+  <footer id="footer" style="display:none">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"></div>
+        <div class="footer-links">
+          <ul></ul>
+        </div>
+        <div class="footer-links">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="#services">Électricité</a></li>
+            <li><a href="#services">Mécanique industrielle</a></li>
+            <li><a href="#services">CVC & Climatisation</a></li>
+            <li><a href="#services">Traitement de l'eau</a></li>
+            <li><a href="#services">Sécurité industrielle</a></li>
+            <li><a href="#services">Facility Management</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h5>Zones d'intervention</h5>
+          <ul>
+            <li><a href="#">Belgique</a></li>
+            <li><a href="#">France</a></li>
+            <li><a href="#">Île-de-France</a></li>
+            <li><a href="#">Wallonie</a></li>
+            <li><a href="#">Bruxelles</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Airgon Group. Tous droits réservés.</p>
+        <div class="footer-legal">
+          <a href="#">Mentions légales</a>
+          <a href="#">Politique de confidentialité</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
