@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.airgon-group.com/sitemap.xml
