@@ -273,7 +273,7 @@ h4 { font-size: 1rem; font-weight: 700; margin-bottom: 8px; }
   max-width: 900px;
   margin: 0 auto;
   padding: 0 24px;
-  text-align: center;
+  text-align: left;
 }
 .hero-badge {
   display: none;
@@ -295,15 +295,19 @@ h4 { font-size: 1rem; font-weight: 700; margin-bottom: 8px; }
   color: rgba(255,255,255,0.85);
   line-height: 1.7;
   max-width: 640px;
-  margin: 0 auto 44px;
+  margin: 0 0 44px;
   animation: fadeDown 0.8s ease 0.3s both;
 }
 .hero-actions {
   display: flex;
   gap: 16px;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   animation: fadeDown 0.8s ease 0.45s both;
+}
+.hero-actions .btn {
+  padding: 18px 40px;
+  font-size: 1.1rem;
 }
 .hero-scroll {
   position: absolute;
@@ -1150,7 +1154,7 @@ h4 { font-size: 1rem; font-weight: 700; margin-bottom: 8px; }
 }
 
 @media (max-width: 480px) {
-  .hero-actions { flex-direction: column; align-items: center; }
+  .hero-actions { flex-direction: column; align-items: flex-start; }
   .valeurs-grid { grid-template-columns: 1fr; }
   .gallery-grid { grid-template-columns: 1fr; }
   .gallery-item { height: 240px; }
