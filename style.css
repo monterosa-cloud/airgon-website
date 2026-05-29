@@ -619,6 +619,8 @@ h4 { font-size: 1rem; font-weight: 700; margin-bottom: 8px; }
   padding: 40px 32px;
   position: relative;
   transition: all var(--transition);
+  display: flex;
+  flex-direction: column;
 }
 .modele-card:hover {
   background: rgba(255,255,255,0.08);
@@ -648,6 +650,7 @@ h4 { font-size: 1rem; font-weight: 700; margin-bottom: 8px; }
   font-size: 0.9rem;
   line-height: 1.7;
   margin-bottom: 20px;
+  flex: 1;
 }
 .modele-tag {
   display: inline-block;
