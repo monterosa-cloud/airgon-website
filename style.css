@@ -941,6 +941,13 @@ h4 { font-size: 1rem; font-weight: 700; margin-bottom: 8px; }
 /* Logo at bottom of left */
 .df-logo .logo-text { font-size: 2rem; }
 
+.df-tva {
+  color: rgba(255,255,255,0.45);
+  font-size: 0.8rem;
+  margin-top: 12px;
+  letter-spacing: 0.02em;
+}
+
 /* -- Right nav -- */
 .df-nav {
   display: flex;
