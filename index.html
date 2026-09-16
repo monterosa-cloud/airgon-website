@@ -76,6 +76,7 @@
         <li><a href="#mission">Notre mission</a></li>
         <li><a href="#services">Services</a></li>
         <li><a href="#approche">Notre approche</a></li>
+        <li><a href="#ressources">Ressources</a></li>
         <li><a href="#entrepreneurs">Entrepreneurs</a></li>
         <li><a href="#contact" class="nav-cta">Nous contacter</a></li>
       </ul>
@@ -88,6 +89,7 @@
         <li><a href="#mission" onclick="closeMenu()">Notre mission</a></li>
         <li><a href="#services" onclick="closeMenu()">Services</a></li>
         <li><a href="#approche" onclick="closeMenu()">Notre approche</a></li>
+        <li><a href="#ressources" onclick="closeMenu()">Ressources</a></li>
         <li><a href="#entrepreneurs" onclick="closeMenu()">Entrepreneurs</a></li>
         <li><a href="#contact" onclick="closeMenu()">Nous contacter</a></li>
       </ul>
@@ -221,6 +223,93 @@
             </div>
             <p class="approche-note">Le rythme et la profondeur du partenariat sont toujours définis par le fondateur.</p>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RESSOURCES : CE QUE NOUS APPORTONS ========== -->
+  <section id="ressources">
+    <div class="container">
+      <div class="ressources-grid">
+        <div class="ressources-list fade-in" id="ressourcesList">
+          <div class="ressource-item open">
+            <button class="ressource-question" type="button" aria-expanded="true" onclick="toggleRessource(this)">
+              <span>Technologie</span>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path class="ico-v" d="M10 4v12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M4 10h12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+            </button>
+            <div class="ressource-answer"><p>La digitalisation des entreprises partenaires est au cœur d'Airgon. Nous aidons à intégrer un ERP si besoin et à digitaliser les éléments clés : devis, planning, suivi de chantier, facturation.</p></div>
+          </div>
+          <div class="ressource-item">
+            <button class="ressource-question" type="button" aria-expanded="false" onclick="toggleRessource(this)">
+              <span>Recrutement &amp; formation</span>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path class="ico-v" d="M10 4v12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M4 10h12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+            </button>
+            <div class="ressource-answer"><p>Trouver et garder de bons techniciens est le premier frein à la croissance. Airgon apporte une équipe de recrutement, des annonces mutualisées et des formations partagées entre les entreprises du groupe.</p></div>
+          </div>
+          <div class="ressource-item">
+            <button class="ressource-question" type="button" aria-expanded="false" onclick="toggleRessource(this)">
+              <span>Analyse &amp; données</span>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path class="ico-v" d="M10 4v12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M4 10h12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+            </button>
+            <div class="ressource-answer"><p>Chaque dirigeant dispose d'un tableau de bord clair : rentabilité par chantier, occupation des équipes, encours clients. Les décisions se prennent sur des chiffres fiables.</p></div>
+          </div>
+          <div class="ressource-item">
+            <button class="ressource-question" type="button" aria-expanded="false" onclick="toggleRessource(this)">
+              <span>Croissance organique : marketing, marque, centre d'appels</span>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path class="ico-v" d="M10 4v12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M4 10h12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+            </button>
+            <div class="ressource-answer"><p>Site web, référencement local, avis clients, campagnes ciblées : plus de demandes qualifiées, sous votre marque. Un centre d'appels commun transforme ces demandes en rendez-vous.</p></div>
+          </div>
+          <div class="ressource-item">
+            <button class="ressource-question" type="button" aria-expanded="false" onclick="toggleRessource(this)">
+              <span>Partage des bonnes pratiques</span>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path class="ico-v" d="M10 4v12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M4 10h12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+            </button>
+            <div class="ressource-answer"><p>Rejoindre Airgon, c'est rejoindre des dirigeants qui font le même métier que vous. Organisation d'atelier, tarification, stocks, sécurité : ce qui marche chez l'un est partagé avec tous.</p></div>
+          </div>
+          <div class="ressource-item">
+            <button class="ressource-question" type="button" aria-expanded="false" onclick="toggleRessource(this)">
+              <span>Expertise sectorielle</span>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path class="ico-v" d="M10 4v12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M4 10h12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+            </button>
+            <div class="ressource-answer"><p>L'équipe Airgon vient du terrain et connaît le HVAC, l'électricité et la plomberie. Nous accompagnons chaque dirigeant sur les sujets concrets de son marché : technique, réglementation, appels d'offres.</p></div>
+          </div>
+          <div class="ressource-item">
+            <button class="ressource-question" type="button" aria-expanded="false" onclick="toggleRessource(this)">
+              <span>Achats stratégiques</span>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path class="ico-v" d="M10 4v12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M4 10h12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+            </button>
+            <div class="ressource-answer"><p>En regroupant les volumes du groupe, nous négocions des conditions qu'une PME seule ne peut pas obtenir : pompes à chaleur, matériel électrique, cuivre, consommables. Chaque société garde ses fournisseurs de proximité si elle le souhaite.</p></div>
+          </div>
+          <div class="ressource-item">
+            <button class="ressource-question" type="button" aria-expanded="false" onclick="toggleRessource(this)">
+              <span>Développement de nouveaux partenariats</span>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path class="ico-v" d="M10 4v12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M4 10h12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+            </button>
+            <div class="ressource-answer"><p>Vous souhaitez travailler avec un confrère dans votre région ? Une équipe dédiée identifie les cibles, mène les discussions et structure l'opération. Après la signature, une équipe locale accompagne l'intégration.</p></div>
+          </div>
+          <div class="ressource-item">
+            <button class="ressource-question" type="button" aria-expanded="false" onclick="toggleRessource(this)">
+              <span>Finance &amp; comptabilité</span>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path class="ico-v" d="M10 4v12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M4 10h12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+            </button>
+            <div class="ressource-answer"><p>Comptabilité, facturation, trésorerie, clôtures : notre équipe finance prend en charge l'administratif et vous fournit chaque mois une information précise. Vous gagnez du temps et pilotez avec une vision claire.</p></div>
+          </div>
+          <div class="ressource-item">
+            <button class="ressource-question" type="button" aria-expanded="false" onclick="toggleRessource(this)">
+              <span>Juridique</span>
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path class="ico-v" d="M10 4v12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M4 10h12" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
+            </button>
+            <div class="ressource-answer"><p>Contrats, conditions générales, litiges, agréations, obligations réglementaires : notre équipe juridique accompagne les entreprises partenaires et protège leurs intérêts.</p></div>
+          </div>
+        </div>
+        <div class="ressources-content fade-in">
+          <div class="section-tag">Ce que nous apportons</div>
+          <h2>Comment nous soutenons nos partenaires</h2>
+          <p>Notre rôle : aider chaque entreprise du groupe à devenir une version plus forte d'elle-même, meilleur employeur et meilleur prestataire de sa région, fidèle à son histoire.</p>
+          <p>L'équipe Airgon apporte ces ressources en arrière-plan, au rythme que vous choisissez.</p>
+          <a href="#contact" class="btn btn-primary">Parlons-en</a>
         </div>
       </div>
     </div>

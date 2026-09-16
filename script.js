@@ -74,7 +74,7 @@ const statsObserver = new IntersectionObserver((entries) => {
     statsObserver.disconnect();
   }
 }, { threshold: 0.4 });
-statsObserver.observe(statsSection);
+if (statsSection) statsObserver.observe(statsSection);
 
 // ── Contact form ──────────────────────────────
 function handleSubmit(e) {
@@ -118,3 +118,18 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
     }
   });
 });
+
+// ── Ressources accordion (Ce que nous apportons) ─────
+function toggleRessource(btn) {
+  const item = btn.closest('.ressource-item');
+  const wasOpen = item.classList.contains('open');
+  document.querySelectorAll('#ressourcesList .ressource-item').forEach(el => {
+    el.classList.remove('open');
+    const b = el.querySelector('.ressource-question');
+    if (b) b.setAttribute('aria-expanded', 'false');
+  });
+  if (!wasOpen) {
+    item.classList.add('open');
+    btn.setAttribute('aria-expanded', 'true');
+  }
+}
